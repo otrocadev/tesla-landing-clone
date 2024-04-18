@@ -12,14 +12,6 @@ The goal of the project was to make the front of the landing page as efficient a
 
 🌟 **Snap-to-Center**: A nice adaptation is the feature implemented to snap the viewport to the center of the page for the model/product of interest, enhancing user experience and engagement, as the product page has the full height, but on the original site this behavior does not work.
 
-### Comparative between Tesla's original scroll and modified
-
-Tesla's site original scroll:
-![Tesla's  site original scroll](./demostrationGifs/tesla-scroll.gif)
-
-Otrocadev's approach:
-![Otrocadev's clone scroll](./demostrationGifs/otrodevs-clone.gif)
-
 ## 🖱️ Check the live demo!
 
 You can see the result on this **live demostration** [here](https://tesla-landing-clone.otroca.dev/).
@@ -44,7 +36,7 @@ Start the development server:
 
     npm run dev
 
-Open your browser and visit http://localhost:3000 to view the project locally!
+Open your browser and visit http://localhost:4321 to view the project locally!
 
 ## Pending updates
 
