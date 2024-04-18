@@ -1,0 +1,26 @@
+---
+import Logo from "./Logo.astro";
+import NavIcons from "./NavIcons.astro";
+---
+
+<header
+  class="text-white py-4 px-10 flex items-center top-0 w-screen justify-between"
+>
+  <div class="flex flex-grow basis-0">
+    <Logo />
+  </div>
+
+  <nav>
+    <ul class="flex text-sm [&>li>a]:px-4 [&>li>a]:py-2">
+      <li><a href="#">Vehículos</a></li>
+      <li><a href="#">Energia</a></li>
+      <li><a href="#">Carga</a></li>
+      <li><a href="#">Descubrir</a></li>
+      <li><a href="#">Tienda</a></li>
+    </ul>
+  </nav>
+
+  <nav class="flex flex-grow basis-0 justify-end">
+    <NavIcons />
+  </nav>
+</header>

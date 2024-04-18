@@ -1,0 +1,45 @@
+---
+import NavHeader from "./NavHeader/NavHeader.astro";
+---
+
+<section
+  class="bg-black h-screen w-screen text-center relative overflow-hidden"
+>
+  <div class="z-20 relative top-12">
+    <NavHeader />
+  </div>
+
+  <div class="z-10 relative flex flex-col h-full">
+    <main>
+      <h2 class="text-white pt-40 pb-2 text-4xl font-black">Model Y</h2>
+      <a href="#" class="text-white py-2 text-sm underline">
+        Concretar una prueba de conducción
+      </a>
+    </main>
+
+    <footer class="flex flex-col flex-grow justify-end pb-24 items-center">
+      <div class="flex gap-8 mb-8">
+        <a
+          class="bg-slate-200 text-black text-sm boder-slate-200 border-4 rounded-md w-fit py-2 px-12"
+          href="#">Entrega más rápida</a
+        >
+        <a
+          class="bg-gray-900 text-white text-sm border-slate-900 backdrop-blur-5xl opacity-80 border-4 rounded-md w-fit py-2 px-12"
+          href="#">Pedido personalizado</a
+        >
+      </div>
+      <a href="#" class="text-white py-2 text-sm underline">
+        Disponible con Moves III
+      </a>
+    </footer>
+  </div>
+
+  <div class="absolute inset-0 z-0">
+    <video
+      autoplay
+      loop
+      muted
+      class="object-cover h-full w-full"
+      src="./home-video.mp4"></video>
+  </div>
+</section>

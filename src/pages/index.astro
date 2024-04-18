@@ -1,0 +1,184 @@
+---
+import HomePageVideo from "../components/HomePageVideo.astro";
+import Layout from "../layouts/Layout.astro";
+import BannerHeader from "../components/BannerHeader.astro";
+import Section from "../components/Section.astro";
+import CarModelButtons from "../components/CarModelButtons.astro";
+import NavHeader from "../components/NavHeader/NavHeader.astro";
+---
+
+<Layout title="Welcome to Astro.">
+  <BannerHeader />
+  <main
+    class="overflow-y-scroll overflow-x-hidden snap-y snap-mandatory relative w-full h-screen"
+  >
+    <div class="snap-start">
+      <div class="z-20 absolute top-12">
+        <NavHeader />
+      </div>
+      <Section title="Model X" color="white">
+        <a slot="subtitle" class="text-white py-2 text-sm underline">
+          Concertar una prueba de conducción
+        </a>
+        <div
+          slot="footer"
+          class="flex flex-col flex-grow justify-end pb-14 items-center"
+        >
+          <div class="flex gap-8 mb-8">
+            <a
+              class="bg-slate-200 text-black text-sm boder-slate-200 border-4 rounded-md w-fit py-2 px-12"
+              href="#">Entrega más rápida</a
+            >
+            <a
+              class="bg-gray-900 text-white text-sm border-slate-900 backdrop-blur-5xl opacity-80 border-4 rounded-md w-fit py-2 px-12"
+              href="#">Pedido personalizado</a
+            >
+          </div>
+          <a slot="moves" href="#" class="text-white py-2 text-xs underline">
+            Disponible con Moves III
+          </a>
+        </div>
+
+        <video
+          autoplay
+          loop
+          muted
+          slot="background"
+          class="object-cover h-full w-full"
+          src="./home-video.mp4"></video>
+      </Section>
+    </div>
+
+    <div class="snap-center">
+      <Section title="Model 3">
+        <div
+          slot="footer"
+          class="flex flex-col flex-grow justify-end pb-14 items-center"
+        >
+          <CarModelButtons />
+          <a slot="moves" href="#" class="text-black py-2 text-xs underline">
+            Disponible con Moves III
+          </a>
+        </div>
+
+        <img
+          slot="background"
+          class="object-cover h-full w-full"
+          src="./models/model-3.avif"
+        />
+      </Section>
+    </div>
+
+    <div class="snap-center">
+      <Section title="Model S">
+        <a slot="subtitle" class="text-black py-2 text-sm underline">
+          Explorar inventario
+        </a>
+
+        <div
+          slot="footer"
+          class="flex flex-col flex-grow justify-end pb-20 items-center"
+        >
+          <CarModelButtons />
+        </div>
+
+        <img
+          slot="background"
+          class="object-cover h-full w-full"
+          src="./models/model-s.avif"
+        />
+      </Section>
+    </div>
+
+    <div class="snap-center">
+      <Section title="Model X">
+        <a slot="subtitle" class="text-black py-2 text-sm underline">
+          Explorar inventario
+        </a>
+        <div
+          slot="footer"
+          class="flex flex-col flex-grow justify-end pb-20 items-center"
+        >
+          <CarModelButtons />
+        </div>
+        <img
+          slot="background"
+          class="object-cover h-full w-full"
+          src="./models/model-x.avif"
+        />
+      </Section>
+    </div>
+
+    <div class="snap-center">
+      <Section title="Disfrute de Tesla" color="white">
+        <a slot="subtitle" class="text-white py-2 text-sm">
+          Programe una prueba de conducción hoy mismo
+        </a>
+
+        <div
+          slot="footer"
+          class="flex flex-col flex-grow justify-end pb-32 items-center"
+        >
+          <a
+            class="text-white text-sm border-white border-4 rounded-md w-fit py-2 px-12"
+            href="#">Prueba de conducción</a
+          >
+        </div>
+        <video
+          autoplay
+          loop
+          muted
+          slot="background"
+          class="object-cover h-full w-full"
+          src="./video.webm"
+        >
+        </video>
+      </Section>
+    </div>
+
+    <div class="snap-center">
+      <Section title="Solar y Powerwall">
+        <a slot="subtitle" class="text-black py-2 text-sm">
+          Energia para todos
+        </a>
+        <div
+          slot="footer"
+          class="flex flex-col flex-grow justify-end pb-20 items-center"
+        >
+          <a
+            href="#"
+            class="bg-gray-900 text-white text-sm border-gray-900 border-4 rounded-md w-fit py-2 px-24"
+          >
+            Saber más
+          </a>
+        </div>
+        <img
+          slot="background"
+          class="object-cover h-full w-full"
+          src="./models/solar-panels.avif"
+        />
+      </Section>
+    </div>
+
+    <div class="snap-center">
+      <Section title="Accesorios">
+        <div
+          slot="footer"
+          class="flex flex-col flex-grow justify-end pb-20 items-center"
+        >
+          <a
+            href="#"
+            class="bg-slate-200 border-slate-200 text-black text-sm border-4 rounded-md w-fit py-2 px-24"
+          >
+            Comprar ahora
+          </a>
+        </div>
+        <img
+          slot="background"
+          class="object-cover h-full w-full"
+          src="./models/charger.avif"
+        />
+      </Section>
+    </div>
+  </main>
+</Layout>
