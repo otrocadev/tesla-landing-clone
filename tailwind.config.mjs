@@ -5,7 +5,11 @@ export default {
     fontFamily: {
       sans: ["Gotham SSm, sans-serif"],
     },
-    extend: {},
+    extend: {
+      gridTemplateColumns: {
+        "auto-fill-100": "repeat(auto-fill, minmax(400px, auto))",
+      },
+    },
   },
   plugins: [],
 };

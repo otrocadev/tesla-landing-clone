@@ -1,10 +1,9 @@
 ---
-import HomePageVideo from "../components/HomePageVideo.astro";
 import Layout from "../layouts/Layout.astro";
 import BannerHeader from "../components/BannerHeader.astro";
 import Section from "../components/Section.astro";
 import CarModelButtons from "../components/CarModelButtons.astro";
-import NavHeader from "../components/NavHeader/NavHeader.astro";
+import NavHeader from "../components/NavHeader/NavHeader.vue";
 ---
 
 <Layout title="Otrocadev's Tesla's Landing Clone">
@@ -13,11 +12,11 @@ import NavHeader from "../components/NavHeader/NavHeader.astro";
     class="overflow-y-scroll overflow-x-hidden snap-y snap-mandatory relative w-full h-screen"
   >
     <div class="snap-start">
-      <div class="z-30 absolute top-12">
-        <NavHeader />
+      <div class="absolute z-30 top-12">
+        <NavHeader client:visible />
       </div>
       <Section title="Model X" color="white">
-        <a slot="subtitle" class="text-white py-2 text-sm underline">
+        <a href="#" slot="subtitle" class="text-white py-2 text-sm underline">
           Concertar una prueba de conducción
         </a>
         <div
@@ -26,11 +25,11 @@ import NavHeader from "../components/NavHeader/NavHeader.astro";
         >
           <div class="flex gap-8 mb-8">
             <a
-              class="bg-slate-200 text-black text-sm boder-slate-200 border-4 rounded-md w-fit py-2 px-12"
+              class="bg-slate-200 text-black text-sm boder-slate-200 border-4 rounded-md w-fit py-2 px-12 transition-all duration-500 hover:bg-red-500 hover:border-red-500 hover:text-white hover:scale-110"
               href="#">Entrega más rápida</a
             >
             <a
-              class="bg-gray-900 text-white text-sm border-slate-900 backdrop-blur-5xl opacity-80 border-4 rounded-md w-fit py-2 px-12"
+              class="bg-gray-900 text-white text-sm border-slate-900 backdrop-blur-5xl opacity-80 border-4 rounded-md w-fit py-2 px-12 transition-all duration-500 hover:bg-red-500 hover:border-red-500 hover:opacity-100 hover:text-white hover:scale-110"
               href="#">Pedido personalizado</a
             >
           </div>
@@ -120,7 +119,7 @@ import NavHeader from "../components/NavHeader/NavHeader.astro";
           class="flex flex-col flex-grow justify-end pb-32 items-center"
         >
           <a
-            class="text-white text-sm border-white border-4 rounded-md w-fit py-2 px-12"
+            class="text-white text-sm border-white border-4 rounded-md w-fit py-2 px-12 transition-all duration-500 hover:bg-white hover:text-black"
             href="#">Prueba de conducción</a
           >
         </div>
@@ -147,7 +146,7 @@ import NavHeader from "../components/NavHeader/NavHeader.astro";
         >
           <a
             href="#"
-            class="bg-gray-900 text-white text-sm border-gray-900 border-4 rounded-md w-fit py-2 px-24"
+            class="bg-gray-900 text-white text-sm border-gray-900 border-4 rounded-md w-fit py-2 px-24 transition-all duration-500 hover:bg-red-500 hover:border-red-500 hover:text-white hover:scale-110"
           >
             Saber más
           </a>
@@ -168,7 +167,7 @@ import NavHeader from "../components/NavHeader/NavHeader.astro";
         >
           <a
             href="#"
-            class="bg-slate-200 border-slate-200 text-black text-sm border-4 rounded-md w-fit py-2 px-24"
+            class="bg-slate-200 border-slate-200 text-black text-sm border-4 rounded-md w-fit py-2 px-24 transition-all duration-500 hover:bg-red-500 hover:border-red-500 hover:text-white hover:scale-110"
           >
             Comprar ahora
           </a>

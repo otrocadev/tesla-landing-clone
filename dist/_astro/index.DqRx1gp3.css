@@ -1,0 +1,1 @@
+.drop-enter-active{animation:wrap-up 1s;transform-origin:top center}.drop-leave-active{animation:wrap-up 1s reverse;transform-origin:top center}@keyframes wrap-up{0%{transform:translateY(-100%);opacity:0}to{transform:translateY(0);opacity:1}}
