@@ -1,4 +1,4 @@
-# 🚗 Tesla Landing Page Clone using 🚀 Astro & 🔥 Tailwind CSS
+# 🚗 Tesla Landing Page Clone using 🚀Astro 🔥Tailwind CSS & 💚Vue.js
 
 This project tries to replicate the landing page of the [Tesla's](tesla.com/es_ES) webpage in Spain to learn Astro and CSS technologies.
 
@@ -6,7 +6,7 @@ This project tries to replicate the landing page of the [Tesla's](tesla.com/es_E
 
 ## Why Astro and Tailwind CSS?
 
-The goal of the project was to make the front of the landing page as efficient as possible, so as the page is mainly static, **Astro** with **Tailwind CSS** is a great combo to build fast.
+The goal of the project was to make the front of the landing page as efficient as possible, so as the page is mainly static, **Astro** with **Tailwind CSS** is a great combo to build fast. **Vue** implementation will solve the reactive parts of the web page.
 
 ## Features developed
 
@@ -14,7 +14,7 @@ The goal of the project was to make the front of the landing page as efficient a
 
 ## Improvements from the original site
 
-🏎️ **Faster Site:** The Tesla original site has a speed problem when loading for the first time (at least when creating the project). I created my project with **ASTRO**, having **VUE:JS** just in the 🏝️**necessary islands** in order to make the site more efficient.
+🏎️ **Faster Site:** The Tesla original site has a speed problem when loading for the first time (at least when creating the project). I created my project with **ASTRO**, having **VUE.JS** just in the 🏝️**necessary islands** in order to make the site more efficient.
 
 (The infrastructure of the TESLA site has a lot more staff related to the speed behaviour, but in the front-end having more efficient technologies as this ones would help).
 
