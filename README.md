@@ -1,6 +1,6 @@
 # 🚗 Tesla Landing Page Clone using 🚀Astro 🔥Tailwind CSS & 💚Vue.js
 
-![image](readme_cover.avif)
+![Tesla Landing Demo image](/public/readme_cover.avif)
 
 This project tries to replicate the landing page of the [Tesla's](tesla.com/es_ES) webpage in Spain to learn Astro and CSS technologies.
 
