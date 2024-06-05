@@ -2,7 +2,7 @@
   <div :class="{ 'backdrop-blur-sm w-screen h-screen': menuIsActive }">
     <header @mouseleave="deactiveMenuIsActive()">
       <div
-        class="text-white py-4 px-10 flex items-center top-0 w-screen justify-between absolute z-40"
+        class="hidden text-white py-4 px-10 md:flex items-center top-0 w-screen justify-between absolute z-40"
       >
         <div
           class="flex flex-grow basis-0"
