@@ -29,7 +29,7 @@ The goal of the project was to make the front of the landing page as efficient a
 
 ## 🖱️ Check out the live demo!
 
-You can see the actual state of the project in this **live demostration** [here](https://tesla-landing-clone.otroca.dev/).
+You can see the actual state of the project in this **live demostration** [here](https://tesla-landing.otroca.dev/).
 
 ## Commands available
 
