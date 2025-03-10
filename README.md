@@ -64,6 +64,6 @@ Special mention to the great **@midudev**, witch original tutorial on the previo
 
 🔗 [**Midudev's tutorial**](https://www.youtube.com/watch?v=S_oLr_np4S8)
 
-> [!TIP]
-> ## License
-> 📝 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## License
+📝 This project is licensed under the MIT License - see the LICENSE file for details.
