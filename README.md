@@ -62,7 +62,3 @@ Open your browser and visit http://localhost:4321 to view the project locally!
 Special mention to the great **@midudev**, witch original tutorial on the previous landing page is the base of this project. After his first implementation, I decided to, as he would say, '🖐🏻mover un poco las manitas', and continue the project adding components, behaviours and trying to enhance the UX from the original Tesla site.
 
 🔗 [**Midudev's tutorial**](https://www.youtube.com/watch?v=S_oLr_np4S8)
-
-
-## ⚖️ License
-📝 This project is licensed under the MIT License - see the LICENSE file for details.
