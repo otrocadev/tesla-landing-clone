@@ -37,7 +37,7 @@ You can see the actual state of the project in this **live demostration** [here]
 
 Clone the repository:
 
-    git clone https://github.com/your-username/tesla-landing-page-clone.git
+    git clone https://github.com/otrocadev/tesla-landing-page-clone.git
 
 Navigate to the project directory:
 
